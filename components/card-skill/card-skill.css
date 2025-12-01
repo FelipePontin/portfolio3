@@ -1,0 +1,26 @@
+.cardSkill__title {
+    font-size: 0.85rem;
+    color: var(--subtitle);
+    margin: 2.25rem 0 1.75rem 0;
+}
+
+.cardSkill__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.cardSkill__content {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5rem;
+    padding: 0.25rem 0.65rem;
+    background: #26262657;
+}
+
+.cardSkill__name {
+    font-size: 12px;
+    color: var(--title);
+}
