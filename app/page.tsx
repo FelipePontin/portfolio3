@@ -26,6 +26,8 @@ import qlLogo from "../images/skills/ql.png";
 import apiLogo from "../images/skills/api.png";
 import jiraLogo from "../images/skills/jira.png";
 
+import AnimatedContent from "../components/animated-content/animated-content";
+
 const cardInfoWorkObj = [
   {
     image: DirectvImage.src,
@@ -51,7 +53,7 @@ const cardInfoProjectsObj = [
   {
     image: KuiperImage.src,
     company: "Amazon + DIRECTV (KUIPER)",
-    ocupation: "Buyflow",
+    ocupation: "Lander & Buyflow",
     projectType: "web",
   },
   {

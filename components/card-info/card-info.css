@@ -46,6 +46,7 @@
 }
 
 .cardInfo__date {
+    white-space: nowrap;
     font-size: 0.75rem;
     color: var(--subtitle);
 }
@@ -58,8 +59,8 @@
 
 .cardInfo__projectType {
     border-radius: 5rem;
-    padding: .15rem .35rem;
-    font-size: .75rem;
+    padding: 0.15rem 0.35rem;
+    font-size: 0.75rem;
     color: #737373;
     background: #262626;
 }

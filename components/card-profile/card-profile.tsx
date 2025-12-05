@@ -35,9 +35,12 @@ const CardProfile = () => {
         <span className="cardProfile__location--name">São Paulo - SP</span>
       </div>
       <div className="cardProfile__icons">
-        <FiGithub className="cardProfile__icons--icon" />
-        <FiLinkedin className="cardProfile__icons--icon" />
-        <FiMail className="cardProfile__icons--icon" />
+        <a href="https://github.com/FelipePontin">
+          <FiGithub className="cardProfile__icons--icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/felipepanebiancopontin/">
+          <FiLinkedin className="cardProfile__icons--icon" />
+        </a>
       </div>
     </div>
   );
